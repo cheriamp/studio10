@@ -1,0 +1,446 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+/* color code */
+
+@primary: #0400ff;
+@secondary: #3ca546;
+@myviolet: #283a80;
+
+body {
+  background-color: lightgoldenrodyellow;
+}
+
+#zone-user {
+
+}
+
+
+#zone-menu-wrapper {
+
+}
+
+#zone-menu {
+   margin-bottom: 40px;
+   border: @primary 3px;
+    border-top-style: double;
+    border-right-style: none;
+    border-bottom-style:double;
+    border-left-style: none;
+}
+
+#zone-header-wrapper {
+  margin-bottom: 30px;
+}
+
+#zone-content-wrapper {
+  margin-bottom: 30px;
+}
+
+#zone-postscript-wrapper {
+
+
+}
+
+#zone-postscript {
+/*   background: url("../images/eraserblue.png"); */
+   background-repeat: no-repeat;
+   background-position: 10% 50%;
+}
+
+#zone-footer-wrapper {
+
+}
+
+#zone-footer {
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-size: .9em;
+   border-top: solid @primary 2px;
+   color: @secondary;
+   a:link {
+   color: @secondary;
+   }
+   
+}
+
+
+/* content area */
+
+#region-content {
+   font-size: 1em;
+}
+
+
+.content-title {
+   font-size: 2em;
+   color: red;
+
+}
+
+#block-system-main {
+	.adaptive-image {
+	padding-bottom: 25px;
+	}
+}
+
+
+a:link, a:visited, a:active {
+	text-decoration: none;
+	color: black;
+}
+
+
+
+/* //////////////////////////////////////////footer */
+.search-block-footer {
+padding-top: 30px;
+padding-bottom: 10px;
+}
+
+.footer-info {
+padding-top: 30px;
+}
+
+button, input[type="reset"], input[type="submit"], input[type="button"] {
+ border-radius: 0px;
+}
+/* //////////////////////////////////////////footer */
+/* //////////////////////////////////////////archive */
+/* search articles located at articles-archive. button fix */
+.views-exposed-form .views-exposed-widget .form-submit {
+   margin-top: 1.9em;
+}
+/* //////////////////////////////////////////archive */
+/* //////////////////////////////////////////tags */
+/* for debugging purpose - bg red */
+.content-tags {
+	background-color: red;
+}
+
+/* fix space of tagged articles */
+.node-teaser {
+	padding-bottom: 30px;
+}
+/* //////////////////////////////////////////tags */
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\nice menu and top elements */
+
+ul.nice-menu a {
+	padding: 3px 10px;
+	background-color: #ffffff;
+	color: @primary;
+
+
+}
+
+.nice-menu {
+	li a.active {
+		background-color: @primary;
+		color: #fff;
+	}
+}
+
+.ul.nice-menu li {
+   border-color:-moz-use-text-color @primary;
+   margin: -1px;
+
+
+}
+
+ul.nice-menu-down li {
+   border: solid @primary 1px;
+   margin: -1px;
+}
+
+.top-menu-link {
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+/* //////////////////////////////////////////nice menu */
+/* //////////////////////////////////////////sidebar */
+.sidebar-category-title {
+	font-size: 1.2em;
+	color: brown;
+}
+
+/* //////////////////////////////////////////sidebar */
+/* //////////////////////////////////////////articles */
+
+.node-links {
+   padding: 5px;
+   border-top: solid @primary 1px;
+}
+
+/* submitted info - date and author */
+.submitted {
+   font-size: 1em;
+   margin-bottom: 10px;
+   margin-top: -5px;
+}
+
+
+#block-views-articles-block,
+#block-views-articles-block-1,
+#block-views-articles-tags-block{
+	color: black;
+	width: 70%;
+	margin-bottom: 30px;
+
+		a{
+		color: black;
+		}
+		h3 {
+		margin-bottom: 0px;
+		color: brown;
+		font-size: 1.2em;
+		
+		}
+	.block-title {
+	}
+   a:hover, a.active {
+   text-decoration: underline;
+   }
+	.more-link {
+	text-align: left;
+	font-style: italic;
+	margin-top: 10px;
+		a {
+		color: @secondary;
+		}
+		a:hover, a.active {
+		text-decoration: underline;
+		}
+	}
+}
+
+.block-views-articles-sidebar-block {
+   margin-top: -30px;
+
+}
+
+/* 2 col articles view  */
+.view-articles {
+    .image-page-grid {
+      border-bottom: 2px dotted #f2f2f2;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+	 }
+	 .views-field-name {
+	 margin-top: -10px;
+	 margin-bottom: 10px;
+	 font-size: .8em;
+	 }
+	 p.articles-dot {
+	 color: @secondary;
+	 }
+   table {
+	border: 0px;
+	}
+   td, th {
+      vertical-align: top;
+   }
+   
+   h2.content-title {
+      line-height: 120%;
+   }
+   .views-field-created {
+   font-size: 1em;
+   margin-bottom: 10px;
+   margin-top:-10px;
+   }
+}
+
+/* banner  */
+#block-views-articles-block-2 {
+   font-size: 1em;
+/*   clear: both;
+    td, th {
+      vertical-align: top;
+   } 
+   h2.block-title {
+      font-size: 50px;
+   } */
+   .views-field-created {
+   font-size: 1em;
+   margin-bottom: 10px;
+   margin-top: 5px;
+   }
+   img {
+   padding: 10px; float: left; margin-left: 5px; margin: 0px 10px 0px -10px; width: 200px;;
+   } 
+   h1.banner-title-1  {
+   font-size: 50px;
+   line-height: 100%;
+   p {color: black;}
+    }
+   h1.banner-title-2 {
+   font-size: 50px;
+   line-height: 100%;
+   margin-top:-20px;
+   p {color: black;}
+    }
+}
+
+/* block of photos for sidebar vertical layout */
+#block-views-articles-block-3 {
+   img  {
+   background-color: @primary;
+   margin-bottom: 15px;
+   padding-bottom: 2px;
+   }
+   height: 600px;
+
+   margin-top: 20px;
+}
+
+/* //////////////////////////////////////////articles */
+/* //////////////////////////////////////////comment */
+.comment-wrapper {
+   color: @primary;
+   font-style: italic;
+}
+
+.comment-submitted {
+   margin-top: -20px;
+   font-size: 12px;
+}
+
+.unpublished {
+   margin-top: -20px;
+   color: green;
+   float: right;
+}
+
+.node-links ul li a, .comment-links ul li a {
+   border-radius: 0px;
+   padding: 7px;
+}
+/* //////////////////////////////////////////comment */
+/* //////////////////////////////////////////projects */
+
+.view-kg-projects {
+	.adaptive-image {
+	padding-bottom: 30px;
+	padding-top: 10px;
+	border-top: 1px solid @primary;
+	}
+}
+
+.node-project {
+   img {
+   padding-top: 20px;
+   margin-bottom: 10px;
+   border-top: 2px dotted #f2f2f2;
+   }
+}
+
+/* //////////////////////////////////////////projects */
+
+
+.site-name {
+
+   a {
+   color: black;
+   font-size: 10px;
+   }
+}
+
+.date-today {
+   font-family:Georgia,"Times New Roman",serif;
+   font-size: 1.2em;
+   font-style: italic;
+   color: @primary;
+   line-height: 100%;
+   text-align:right;
+   padding:5px 0 5px 0;
+
+}
+
+.site-name-block, {
+   text-align:center;
+}
+
+
+.block-slogan {
+   text-align:center;
+   color: @secondary;
+   margin-top:10px;
+}
+
+.site-slogan {
+   font-size: 1.2em;
+}
+
+
+
+
+.ytp-thumbnail-overlay ytp-cued-thumbnail-overlay {
+   margin-bottom: 50px;
+}
+
+
+
+
+/* linetext-1 is used by photo credit... */
+
+.field-name-field-linetext-1 {
+   margin-top: -20px;
+   font-size: 12px;
+}
+
+
+
+
+#block-views-articles-tags-block-1{
+   .item-list li {
+      display: inline;
+      float: left;
+      margin-left: 0px;
+      padding-right: 10px;
+   }
+}
+
+#page-title {
+   line-height: 100%;
+}
+
+
+
+#block-views-works-project-category-block {
+   margin-bottom: 30px;
+}
+
+#zone-user-wrapper {
+   background-color: #ffffff;
+   width: 100%;
+   position: fixed;
+   height: 100px;
+   z-index: 100;   
+}
+
+#zone-menu {
+/*   background-image: url('../images/pig.jpg'); */
+   background-color: #EBEBEB;
+
+}
+
+#zone-menu-wrapper {
+   width: 100%;
+   position: fixed;
+   height: auto;
+   z-index: 100;
+   margin-top:10px;
+}
+
+#zone-content-wrapper {
+   margin-top: 100px;
+}
+
+.view-display-id-block_2 {
+   margin-top: 100px;
+   margin-bottom: -100px;
+}
+
+
